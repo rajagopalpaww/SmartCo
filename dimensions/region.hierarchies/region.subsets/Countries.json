@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Countries",
-	"Expression":"{TM1SORT( {TM1FILTERBYLEVEL( {TM1DRILLDOWNMEMBER( {TM1SubsetBasis()}, { [region].[region].[World] }, RECURSIVE ) }, 0)}, ASC)}"
-}

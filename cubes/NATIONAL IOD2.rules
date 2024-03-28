@@ -1,9 +1,0 @@
-#Region System
-FEEDSTRINGS;
-SKIPCHECK;
-#EndRegion
-['NATIONAL IOD2.measures':'Product Manufacture Date'] = C:ConsolidatedMax(3, 'NATIONAL IOD2', !Product Line,!Product Item Name,!Outlet,!Market,'Product Manufacture Date');
-['NATIONAL IOD2.measures':'Product Time'] = C:ConsolidatedMax(3, 'NATIONAL IOD2', !Product Line,!Product Item Name,!Outlet,!Market,'Product Time');
-['NATIONAL IOD2.measures':'Product Sold Date'] = C:ConsolidatedMax(3, 'NATIONAL IOD2', !Product Line,!Product Item Name,!Outlet,!Market,'Product Sold Date');
-
-FEEDERS;

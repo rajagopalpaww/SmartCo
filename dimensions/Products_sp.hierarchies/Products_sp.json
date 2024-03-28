@@ -1,0 +1,20 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Products_sp",
+	"Elements":
+	[
+		{
+			"Name":"Hats",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Shoes",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gloves",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Members_sp",
+	"Hierarchies@Code.links":
+	[
+		"Members_sp.hierarchies/Members_sp.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Members_sp')/Hierarchies('Members_sp')"
+	}
+}

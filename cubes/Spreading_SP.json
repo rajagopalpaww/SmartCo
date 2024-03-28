@@ -1,0 +1,17 @@
+{
+	"@type":"Cube",
+	"Name":"Spreading_SP",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Products_sp')"
+		},
+		{
+			"@id":"Dimensions('Time_sp')"
+		},
+		{
+			"@id":"Dimensions('city_sp')"
+		}
+	],
+	"Views@Code.links":[]
+}

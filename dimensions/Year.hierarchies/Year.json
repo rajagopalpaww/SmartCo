@@ -4,13 +4,33 @@
 	"Elements":
 	[
 		{
-			"Name":"2016",
+			"Name":"Y1",
 			"Type":"Numeric"
 		},
 		{
-			"Name":"2017",
+			"Name":"Y2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Y3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Y2-Y1 $",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Y2-Y1 %",
 			"Type":"Numeric"
 		}
 	],
-	"Subsets@Code.links":[]
+	"Subsets@Code.links":
+	[
+		"Year.subsets/__BACKUP_All Members.json",
+		"Year.subsets/__BACKUP_Year.json",
+		"Year.subsets/All Members.json",
+		"Year.subsets/Default.json",
+		"Year.subsets/Year.json",
+		"Year.subsets/zCopyFrom.json"
+	]
 }

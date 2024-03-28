@@ -1,0 +1,296 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Time_sp",
+	"Elements":
+	[
+		{
+			"Name":"Jan 2018",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2018",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2018",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2018",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2018",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2018",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2018",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2018",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2018",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 2018",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2018",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2018",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2019",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2019",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2019",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2019",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2019",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2019",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2019",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2019",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2019",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 2019",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2019",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2019",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2020",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2020",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2020",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2020",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2020",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2020",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2020",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2020",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2020",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 2020",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2020",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2020",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2021",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2021",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2021",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2021",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2021",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2021",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2021",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2021",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2021",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 2021",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2021",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2021",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2023",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

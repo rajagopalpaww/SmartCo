@@ -1,0 +1,17 @@
+{
+	"@type":"Cube",
+	"Name":"Forecast_sp",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Members_sp')"
+		},
+		{
+			"@id":"Dimensions('Years_sp')"
+		},
+		{
+			"@id":"Dimensions('Version_sp')"
+		}
+	],
+	"Views@Code.links":[]
+}

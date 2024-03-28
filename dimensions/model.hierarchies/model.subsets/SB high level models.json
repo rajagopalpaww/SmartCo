@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"SB high level models",
-	"Expression":"{[model].[model].[Total],[model].[model].[Total^S Series],[model].[model].[S Series 2WD],[model].[model].[Total^L Series],[model].[model].[L Series 2WD],[model].[model].[T Series]}"
-}

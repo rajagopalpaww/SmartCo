@@ -1,0 +1,24 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Version_sp",
+	"Elements":
+	[
+		{
+			"Name":"Actual",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast_low",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast_high",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

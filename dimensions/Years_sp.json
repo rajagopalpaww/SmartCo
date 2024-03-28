@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Years_sp",
+	"Hierarchies@Code.links":
+	[
+		"Years_sp.hierarchies/Years_sp.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Years_sp')/Hierarchies('Years_sp')"
+	}
+}

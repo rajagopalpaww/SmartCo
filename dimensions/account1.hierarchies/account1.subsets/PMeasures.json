@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"PMeasures",
-	"Expression":"{[account1].[account1].[Units],[account1].[account1].[Sales],[account1].[account1].[Gross Margin],[account1].[account1].[Gross Margin%]}"
-}

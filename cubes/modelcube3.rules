@@ -1,7 +1,0 @@
-#Region System
-FEEDSTRINGS;
-SKIPCHECK;
-#EndRegion
-['week1'] = n:if (DB('modelcube2',!model,!Shape,'Week1')=1,DB('modelcube2',!model,!Shape,'Large'),0);
-['week2'] = n:if (DB('modelcube2',!model,!Shape,'Week2')=1,DB('modelcube2',!model,!Shape,'Large'),0);
-['week3'] = n:if (DB('modelcube2',!model,!Shape,'Week3')=1,DB('modelcube2',!model,!Shape,'Large'),0);

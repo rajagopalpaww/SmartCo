@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"city_sp",
+	"Hierarchies@Code.links":
+	[
+		"city_sp.hierarchies/city_sp.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('city_sp')/Hierarchies('city_sp')"
+	}
+}

@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Valid models per region",
-	"Expression":"{HIERARCHIZE(FILTER(TM1SUBSETALL([model]) , [Valid Model-Region].([model].CURRENTMEMBER,[region].CURRENTMEMBER,[Valid Model].[Valid model]) > 0))}"
-}

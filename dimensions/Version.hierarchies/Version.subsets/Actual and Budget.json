@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Actual and Budget",
-	"Expression":"{[Version].[Version].[Actual],[Version].[Version].[Budget]}"
-}

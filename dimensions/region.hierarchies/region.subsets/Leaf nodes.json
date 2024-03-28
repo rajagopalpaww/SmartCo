@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Leaf nodes",
-	"Expression":"{[region].MEMBERS}"
-}

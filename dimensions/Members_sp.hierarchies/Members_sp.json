@@ -1,0 +1,28 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Members_sp",
+	"Elements":
+	[
+		{
+			"Name":"Member1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Member2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Member3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Member4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Member5",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

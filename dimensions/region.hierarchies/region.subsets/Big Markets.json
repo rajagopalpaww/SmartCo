@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Big Markets",
-	"Expression":"{FILTER( {TM1SUBSETALL( [region] )}, [region].[MarketSize] = \"Big Markets\")}"
-}

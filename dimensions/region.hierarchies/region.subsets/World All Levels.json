@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"World All Levels",
-	"Expression":"{{DESCENDANTS([region].[region].[World])}}"
-}

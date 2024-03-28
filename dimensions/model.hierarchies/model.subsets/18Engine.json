@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"18Engine",
-	"Expression":"{FILTER( {TM1FILTERBYLEVEL( {TM1SUBSETALL( [model] )}, 0)}, [model].[Engine Size] = \"1.8\")}"
-}
