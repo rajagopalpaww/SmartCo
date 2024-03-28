@@ -1,0 +1,31 @@
+{
+	"@type":"Hierarchy",
+	"Name":"promo_details",
+	"Elements":
+	[
+		{
+			"Name":"Promotion Description",
+			"Type":"String"
+		},
+		{
+			"Name":"Product Group",
+			"Type":"String"
+		},
+		{
+			"Name":"Start Date",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"End Date",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales Uplift",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"promo_details.subsets/All Members.json"
+	]
+}

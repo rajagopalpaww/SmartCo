@@ -1,0 +1,16 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Year",
+	"Elements":
+	[
+		{
+			"Name":"2016",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2017",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"NATIONAL IOD2.measures",
+	"Hierarchies@Code.links":
+	[
+		"NATIONAL IOD2.measures.hierarchies/NATIONAL IOD2.measures.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('NATIONAL IOD2.measures')/Hierarchies('NATIONAL IOD2.measures')"
+	}
+}

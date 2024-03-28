@@ -1,0 +1,21 @@
+{
+	"@type":"Process",
+	"Name":"CP",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"CP.ti",
+	"UIData":"CubeAction=1511\fDataAction=1503\fCubeLogChanges=0\f",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"CurrentPeriod",
+			"Prompt":"Enter Current Period",
+			"Value":"P1 Amt",
+			"Type":"String"
+		}
+	],
+	"Variables":[]
+}

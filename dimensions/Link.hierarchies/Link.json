@@ -1,0 +1,37 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Link",
+	"Elements":
+	[
+		{
+			"Name":"Prod A",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Prod B",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Prod C",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Prod D",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Prod A",
+			"ComponentName":"Prod B",
+			"Weight":1
+		},
+		{
+			"ParentName":"Prod A",
+			"ComponentName":"Prod C",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

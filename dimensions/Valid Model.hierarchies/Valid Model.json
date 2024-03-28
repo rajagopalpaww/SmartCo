@@ -1,0 +1,12 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Valid Model",
+	"Elements":
+	[
+		{
+			"Name":"Valid model",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

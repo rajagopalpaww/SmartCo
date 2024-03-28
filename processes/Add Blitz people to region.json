@@ -1,0 +1,43 @@
+{
+	"@type":"Process",
+	"Name":"Add Blitz people to region",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"Add Blitz people to region.ti",
+	"UIData":"CubeAction=1511\fDataAction=1503\fCubeLogChanges=0\f",
+	"VariablesUIData":
+	[
+		"VarType=32\fColType=825\fVarDimension=region\fVarDimAction=Update\fVarElemType=Numeric\fVarDimElemSortType=BYINPUT\fVarDimElemSortSense=ASCENDING\f",
+		"VarType=32\fColType=858\fConsolidationDim=region\fConsolidationChildVar=person\fConsolidationChildWeight=1.000000\fComponentSortType=BYINPUT\fComponentSortSense=ASCENDING\f",
+		"VarName=BigBlueParent\fVarType=32\fColType=858\fVarFormula=BigBlueParent='Big Blue Land';:\fVarFormulaDestination=BOTH\fConsolidationDim=region\fConsolidationChildVar=IBM_location\fConsolidationChildWeight=1.000000\fComponentSortType=BYINPUT\fComponentSortSense=ASCENDING\f"
+	],
+	"DataSource":
+	{
+		"Type":"ASCII",
+		"asciiDecimalSeparator":".",
+		"asciiDelimiterChar":"\t",
+		"asciiDelimiterType":"Character",
+		"asciiHeaderRecords":1,
+		"asciiQuoteCharacter":"\"",
+		"asciiThousandSeparator":",",
+		"dataSourceNameForClient":"D:\\TM1Models\\SDataRework\\SDataHierarchies\\SourceFiles\\Blitz_people.txt",
+		"dataSourceNameForServer":".\\SourceFiles\\Blitz_people.txt"
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"person",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"IBM_location",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}

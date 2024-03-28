@@ -1,0 +1,208 @@
+{
+	"@type":"NativeView",
+	"Name":"Unit Sales",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Time')/Hierarchies('Time')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2015')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2015 - Q1')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2015 - Jan')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2015 - Feb')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2015 - Mar')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2015 - Q2')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2015 - Q3')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2015 - Q4')"
+					}
+				]
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('model')/Hierarchies('model')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('Total')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 3.4 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 2.5 L Sedan 4WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 3.4 L Sedan 4WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 1.8 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 2.0 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 2.5 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 3.0 L Sedan 4WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 3.0 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series Wagon')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 1.8 L Wagon')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 2.0 L Wagon')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 2.5 L Wagon')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 3.0 L Wagon')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 3.4 L Wagon')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 2.5 L Wagon 4WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 3.0 L Wagon 4WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 3.4 L Wagon 4WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series 1.6 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series 1.8 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series 2.0 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series 2.5 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series Wagon')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series Convertible')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('T Series')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('T Series Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('T Series Coupe')"
+					}
+				]
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('SalesMeasures')/Hierarchies('SalesMeasures')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('SalesMeasures')/Hierarchies('SalesMeasures')/Elements('Units')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('SalesMeasures')/Hierarchies('SalesMeasures')/Elements('Units')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Version')/Hierarchies('Version')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('Actual')"
+					},
+					{
+						"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('Budget')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('Actual')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('region')/Hierarchies('region')/Subsets('Leaves')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('region')/Hierarchies('region')/Elements('Belgium')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.#########"
+}

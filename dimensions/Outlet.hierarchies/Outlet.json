@@ -1,0 +1,99 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Outlet",
+	"Elements":
+	[
+		{
+			"Name":"CA",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Ottawa",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Toronto",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"San Diego",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"NY",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"New York",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"San Jose",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MA",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Boston",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total of Outlet",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"CA",
+			"ComponentName":"Ottawa",
+			"Weight":1
+		},
+		{
+			"ParentName":"CA",
+			"ComponentName":"Toronto",
+			"Weight":1
+		},
+		{
+			"ParentName":"CA",
+			"ComponentName":"San Diego",
+			"Weight":1
+		},
+		{
+			"ParentName":"CA",
+			"ComponentName":"San Jose",
+			"Weight":1
+		},
+		{
+			"ParentName":"NY",
+			"ComponentName":"New York",
+			"Weight":1
+		},
+		{
+			"ParentName":"MA",
+			"ComponentName":"Boston",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total of Outlet",
+			"ComponentName":"CA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total of Outlet",
+			"ComponentName":"NY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total of Outlet",
+			"ComponentName":"MA",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Outlet.subsets/All Members.json"
+	]
+}

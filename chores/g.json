@@ -1,0 +1,28 @@
+{
+	"@type":"Chore",
+	"Name":"g",
+	"StartTime":"2015-08-04T00:53:38Z",
+	"DSTSensitive":false,
+	"Active":false,
+	"ExecutionMode":"SingleCommit",
+	"Frequency":"P6DT00H00M00S",
+	"Tasks":
+	[
+		{
+			"Step":0,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('Add Blitz people to region')"
+			}
+		},
+		{
+			"Step":1,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('AssignAdminRights')"
+			}
+		}
+	]
+}

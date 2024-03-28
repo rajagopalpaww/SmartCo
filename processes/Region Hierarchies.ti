@@ -1,0 +1,94 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+#DimensionHierarchyDelete('Region','MarketSize');
+#DimensionHierarchyDelete('Region','ManufacturingSource');
+
+
+
+DimensionHierarchyCreate('Region','MarketSize');
+DimensionHierarchyCreate('Region','ManufacturingSource');
+
+
+
+DimensionElementInsert('Region:MarketSize','','All Markets','N');
+DimensionElementInsert('Region:MarketSize','','Big Markets','N');
+DimensionElementInsert('Region:MarketSize','','Small Markets','N');
+
+DimensionElementInsert('Region:ManufacturingSource','','All Manufacturing Sources','N');
+DimensionElementInsert('Region:ManufacturingSource','','Markham','N');
+DimensionElementInsert('Region:ManufacturingSource','','Latin America','N');
+DimensionElementInsert('Region:ManufacturingSource','','Frankfurt','N');
+DimensionElementInsert('Region:ManufacturingSource','','Stockholm','N');
+
+DimensionElementComponentAddDirect('Region:MarketSize','All Markets','Big Markets',1);
+DimensionElementComponentAddDirect('Region:MarketSize','All Markets','Small Markets',1);
+
+DimensionElementComponentAddDirect('Region:ManufacturingSource','All Manufacturing Sources','Markham',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','All Manufacturing Sources','Latin America',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','All Manufacturing Sources','Frankfurt',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','All Manufacturing Sources','Stockholm',1);
+
+DimensionElementComponentAddDirect('Region:MarketSize','Big Markets','Argentina',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Big Markets','Brazil',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Big Markets','Canada',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Big Markets','France',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Big Markets','Germany',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Big Markets','Great Britain',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Big Markets','Mexico',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Big Markets','Spain',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Big Markets','United States',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Small Markets','Belgium',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Small Markets','Chile',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Small Markets','Denmark',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Small Markets','Greece',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Small Markets','Ireland',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Small Markets','Italy',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Small Markets','Luxemburg',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Small Markets','Netherlands',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Small Markets','Norway',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Small Markets','Portugal',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Small Markets','Sweden',1);
+DimensionElementComponentAddDirect('Region:MarketSize','Small Markets','Uruguay',1);
+
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Latin America','Argentina',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Latin America','Brazil',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Latin America','Canada',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Stockholm','France',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Markham','Germany',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Stockholm','Great Britain',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Markham','Mexico',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Frankfurt','Spain',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Markham','United States',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Frankfurt','Belgium',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Latin America','Chile',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Frankfurt','Denmark',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Frankfurt','Greece',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Stockholm','Ireland',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Stockholm','Italy',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Frankfurt','Luxemburg',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Frankfurt','Netherlands',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Stockholm','Norway',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Frankfurt','Portugal',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Stockholm','Sweden',1);
+DimensionElementComponentAddDirect('Region:ManufacturingSource','Latin America','Uruguay',1);
+
+
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion

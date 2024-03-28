@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"alltime",
+	"Expression":"TM1SubsetAll([Time])"
+}

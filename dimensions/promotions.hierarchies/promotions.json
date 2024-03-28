@@ -1,0 +1,64 @@
+{
+	"@type":"Hierarchy",
+	"Name":"promotions",
+	"Elements":
+	[
+		{
+			"Name":"All Promotions",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Promo1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Promo2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Promo3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Promo4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Promo5",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"All Promotions",
+			"ComponentName":"Promo1",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Promotions",
+			"ComponentName":"Promo2",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Promotions",
+			"ComponentName":"Promo3",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Promotions",
+			"ComponentName":"Promo4",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Promotions",
+			"ComponentName":"Promo5",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"promotions.subsets/All Members.json",
+		"promotions.subsets/Selection.json"
+	]
+}

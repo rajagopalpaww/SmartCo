@@ -1,0 +1,132 @@
+#region Prolog
+
+#****Begin: Generated Header****
+#****End: Generated Header****
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+# Check the validity of the dimension name and attribute name
+
+
+If (DimensionExists(pDimension) = 0);
+    ItemReject('Dimension does not exist');
+    ProcessError;
+EndIf;
+
+If (DIMIX('}ElementAttributes_' | pDimension, pAttribute) = 0);
+   ItemReject('Not a valid attribute for the dimension');
+   ProcessError;
+EndIf;
+
+
+# Determine whether a String or Numeric attribute has been specified
+# Building a Hierarchy from an alias doesn't make any sense, so we won't allow it
+sAttributeType  = DTYPE('}ElementAttributes_' | pDimension, pAttribute);
+If (sAttributeType @= 'AA');
+    ItemReject('Cannot build a Hierarchy from an Alias');
+   ProcessError;
+EndIf;
+
+
+## Build a temp subset to hold all the Leaves from the dimension
+sTempSubset = 'Temp' | pDimension | pHierarchy | NumberToString(NOW());
+sMDX = '{TM1FILTERBYLEVEL( {TM1SUBSETALL([' | pDimension | '] )}, 0)}';
+SubsetCreateByMDX(sTempSubset, sMDX);
+
+DatasourceNameForServer = pDimension;
+DatasourceDimensionSubset = sTempSubset;
+
+sFullHierarchyName = pDimension | ':' | pHierarchy;
+
+If (DimensionExists( sFullHierarchyName ) = 0 );
+    DimensionHierarchyCreate( pDimension, pHierarchy );
+EndIf;
+
+DimensionSortOrder (sFullHierarchyName, 'ByName', 'Ascending', 'ByHierarchy', 'Ascending');
+
+DimensionDeleteAllElements( sFullHierarchyName );
+
+
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+
+
+## Check to see if we're dealing with a String or Numeric attribute
+sAttributeType  = DTYPE('}ElementAttributes_' | pDimension, pAttribute);
+If (sAttributeType @= 'AS');
+     vMemberAttributeValue = ATTRS(pDimension, vMember, pAttribute);
+ElseIf (sAttributeType @= 'AN');
+     vMemberAttributeValue = NumberToString(ATTRN(pDimension, vMember, pAttribute));
+EndIf;
+
+
+sTop = 'Total of ' | pAttribute;
+
+
+If (vMemberAttributeValue @= '' & pIncludeMembersWithEmptyAttributes = 0);
+	ItemSkip;
+ElseIf (vMemberAttributeValue @= '' & pIncludeMembersWithEmptyAttributes = 1);
+	If (pEmptyValueLabel @= '');
+		vMemberAttributeValue = 'Empty ' | pAttribute | ' values';
+	Else;
+		vMemberAttributeValue = pEmptyValueLabel;
+	EndIf;
+EndIf;
+
+
+DimensionElementInsert( sFullHierarchyName, '', vMember, 'N');
+
+## Need to handle situation where attribute value is the same as the member name ##
+
+If (vMember @= vMemberAttributeValue);
+	sRejectMessage = 'Member ' | vMember | ' cannot have the same name as the attribute value for ' | pAttribute;
+	ItemReject(sRejectMessage);
+Else;
+
+	DimensionElementInsert( sFullHierarchyName, '', sTop, 'C');
+                DimensionElementInsert( sFullHierarchyName, '', vMemberAttributeValue, 'C');
+	DimensionElementComponentAdd(sFullHierarchyName, vMemberAttributeValue, vMember, 1);
+	DimensionElementComponentAdd(sFullHierarchyName, sTop, vMemberAttributeValue, 1);
+EndIf;
+#endregion
+#region Data
+
+#****Begin: Generated Header****
+#****End: Generated Header****
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+sFullHierarchyName = pDimension | ':' | pHierarchy;
+
+
+## DimensionTopElementInsert doesn't seem to work for Hierarchies yet?
+## So current implementation just adds the top-level member in the metadata tab
+#sTopMemberName = 'Total of ' | 'pHierarchy';
+#DimensionTopElementInsert(sFullHierarchyName, '', sTopMemberName);
+
+
+# Clear up the temp subset we used to get all the Leaf members of the dimension
+SubsetDestroy(pDimension, sTempSubset);
+
+# An attribute-driven Hierarchy should only ever have 3 levels - the Leaves, the attribute consolidations, and the grand total.
+# It may end up having more levels than that in some situations - e.g. if a Member has the same name as an attribute value.
+# These scenarios are difficult to check for individually, so this check for the number of levels is a 'catch all' test
+# Of course, if the Hierarchy does only have 3 levels, it doesn't guarantee that the Hierarchy has been built correctly.
+
+If (DNLEV( sFullHierarchyName) > 3 );
+   ItemReject('Hierarchy has more than 3 levels - there is probably a problem with the hierarchy structure');
+   ProcessError;
+EndIf;
+#endregion

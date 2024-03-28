@@ -1,0 +1,76 @@
+{
+	"@type":"Process",
+	"Name":"LoadSalesCube",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"LoadSalesCube.ti",
+	"UIData":"CubeAction=1500\fDataAction=1503\fCubeName=SalesCube\fCubeLogChanges=0\f",
+	"VariablesUIData":
+	[
+		"IgnoredInputVarName=V1\fVarType=32\fColType=1165\f",
+		"VarType=32\fColType=825\fVarDimension=actvsbud\fVarDimAction=As Is\fVarElemType=Numeric\fVarDimElemSortType=BYINPUT\fVarDimElemSortSense=ASCENDING\f",
+		"VarType=32\fColType=825\fVarDimension=region\fVarDimAction=As Is\fVarElemType=Numeric\fVarDimElemSortType=BYINPUT\fVarDimElemSortSense=ASCENDING\f",
+		"VarType=32\fColType=825\fVarDimension=model\fVarDimAction=As Is\fVarElemType=Numeric\fVarDimElemSortType=BYINPUT\fVarDimElemSortSense=ASCENDING\f",
+		"VarType=32\fColType=825\fVarDimension=account1\fVarDimAction=As Is\fVarElemType=Numeric\fVarDimElemSortType=BYINPUT\fVarDimElemSortSense=ASCENDING\f",
+		"VarType=32\fColType=825\fVarDimension=month\fVarDimAction=As Is\fVarElemType=Numeric\fVarDimElemSortType=BYINPUT\fVarDimElemSortSense=ASCENDING\f",
+		"VarType=33\fColType=826\f",
+		"IgnoredInputVarName=V8\fVarType=33\fColType=1165\f"
+	],
+	"DataSource":
+	{
+		"Type":"ASCII",
+		"asciiDecimalSeparator":".",
+		"asciiDelimiterChar":",",
+		"asciiDelimiterType":"Character",
+		"asciiHeaderRecords":0,
+		"asciiQuoteCharacter":"\"",
+		"asciiThousandSeparator":",",
+		"dataSourceNameForClient":"E:\\extra_tm1_databases\\SDataVision2015\\SalesCube_data.cma",
+		"dataSourceNameForServer":"E:\\extra_tm1_databases\\SDataVision2015\\SalesCube_data.cma"
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"Actual",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"region",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"model",
+			"Type":"String",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"account1",
+			"Type":"String",
+			"Position":5,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_month",
+			"Type":"String",
+			"Position":6,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"data",
+			"Type":"Numeric",
+			"Position":7,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}

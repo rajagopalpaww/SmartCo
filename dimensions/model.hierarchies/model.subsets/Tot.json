@@ -1,0 +1,19 @@
+{
+	"@type":"Subset",
+	"Name":"Tot",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('Total')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('T Series')"
+		}
+	]
+}

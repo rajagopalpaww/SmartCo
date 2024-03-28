@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"promo_details",
+	"Hierarchies@Code.links":
+	[
+		"promo_details.hierarchies/promo_details.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('promo_details')/Hierarchies('promo_details')"
+	}
+}

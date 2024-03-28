@@ -1,0 +1,782 @@
+{
+	"@type":"Hierarchy",
+	"Name":"model",
+	"ElementsSortType":"ByLevel",
+	"Elements":
+	[
+		{
+			"Name":"L Series 1.6 L Convertible",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 1.6 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 1.8 L Convertible",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 1.8 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 1.8 L Wagon",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 1.8 L Wagon 4WD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 2.0 L Convertible",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 2.0 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 2.0 L Wagon",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 2.0 L Wagon 4WD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 2.5 L Convertible",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 2.5 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 1.8 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 1.8 L Wagon",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 2.0 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 2.0 L Wagon",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 2.5 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 2.5 L Sedan 4WD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 2.5 L Wagon",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 2.5 L Wagon 4WD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 3.0 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 3.0 L Sedan 4WD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 3.0 L Wagon",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 3.0 L Wagon 4WD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 3.4 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 3.4 L Sedan 4WD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 3.4 L Wagon",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"S Series 3.4 L Wagon 4WD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T Series 2.8 L Coupe",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T Series 2.8 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T Series 3.2 L Coupe",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T Series 3.2 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T Series 4.0 L Coupe",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T Series 4.0 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T Series 5.0 L Coupe",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T Series 5.0 L Sedan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Brighton Limited",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Brighton Platinum",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cascade CX",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cascade RX",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cascade LX",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Bryce J40",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Bryce J50",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Bryce J60",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"u",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"b",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BryceJ658",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Bryce Taleo",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Bryce  Z",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Royale i10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Royale i50",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Royale i60",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Spectre CL",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Spectre PL",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Spectre RL",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Skyfall London",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Skfall Cambridge",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"L Series 4WD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"L Series Convertible",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"L Series Sedan",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"L Series Wagon",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"S Series 4WD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"S Series Sedan",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"S Series Wagon",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"T Series Coupe",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"T Series Sedan",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Brighton",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Cascade",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Bryce",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Royale",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Spectre",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Skyfall",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"L Series",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"S Series",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"T Series",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SUV",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Sports",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"L Series 2WD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"S Series 2WD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Total",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"L Series 4WD",
+			"ComponentName":"L Series 1.8 L Wagon 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series 4WD",
+			"ComponentName":"L Series 2.0 L Wagon 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series Convertible",
+			"ComponentName":"L Series 1.6 L Convertible",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series Convertible",
+			"ComponentName":"L Series 1.8 L Convertible",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series Convertible",
+			"ComponentName":"L Series 2.0 L Convertible",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series Convertible",
+			"ComponentName":"L Series 2.5 L Convertible",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series Sedan",
+			"ComponentName":"L Series 1.6 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series Sedan",
+			"ComponentName":"L Series 1.8 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series Sedan",
+			"ComponentName":"L Series 2.0 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series Sedan",
+			"ComponentName":"L Series 2.5 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series Wagon",
+			"ComponentName":"L Series 1.8 L Wagon",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series Wagon",
+			"ComponentName":"L Series 2.0 L Wagon",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series Wagon",
+			"ComponentName":"L Series 1.8 L Wagon 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series Wagon",
+			"ComponentName":"L Series 2.0 L Wagon 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series 4WD",
+			"ComponentName":"S Series 2.5 L Sedan 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series 4WD",
+			"ComponentName":"S Series 3.0 L Sedan 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series 4WD",
+			"ComponentName":"S Series 3.4 L Sedan 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series 4WD",
+			"ComponentName":"S Series 2.5 L Wagon 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series 4WD",
+			"ComponentName":"S Series 3.0 L Wagon 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series 4WD",
+			"ComponentName":"S Series 3.4 L Wagon 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series Sedan",
+			"ComponentName":"S Series 3.4 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series Sedan",
+			"ComponentName":"S Series 2.5 L Sedan 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series Sedan",
+			"ComponentName":"S Series 3.4 L Sedan 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series Sedan",
+			"ComponentName":"S Series 1.8 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series Sedan",
+			"ComponentName":"S Series 2.5 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series Sedan",
+			"ComponentName":"S Series 3.0 L Sedan 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series Sedan",
+			"ComponentName":"S Series 3.0 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series Sedan",
+			"ComponentName":"S Series 2.0 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series Wagon",
+			"ComponentName":"S Series 1.8 L Wagon",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series Wagon",
+			"ComponentName":"S Series 2.0 L Wagon",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series Wagon",
+			"ComponentName":"S Series 2.5 L Wagon",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series Wagon",
+			"ComponentName":"S Series 3.0 L Wagon",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series Wagon",
+			"ComponentName":"S Series 3.4 L Wagon",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series Wagon",
+			"ComponentName":"S Series 2.5 L Wagon 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series Wagon",
+			"ComponentName":"S Series 3.0 L Wagon 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series Wagon",
+			"ComponentName":"S Series 3.4 L Wagon 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T Series Coupe",
+			"ComponentName":"T Series 2.8 L Coupe",
+			"Weight":1
+		},
+		{
+			"ParentName":"T Series Coupe",
+			"ComponentName":"T Series 3.2 L Coupe",
+			"Weight":1
+		},
+		{
+			"ParentName":"T Series Coupe",
+			"ComponentName":"T Series 4.0 L Coupe",
+			"Weight":1
+		},
+		{
+			"ParentName":"T Series Coupe",
+			"ComponentName":"T Series 5.0 L Coupe",
+			"Weight":1
+		},
+		{
+			"ParentName":"T Series Sedan",
+			"ComponentName":"T Series 2.8 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"T Series Sedan",
+			"ComponentName":"T Series 3.2 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"T Series Sedan",
+			"ComponentName":"T Series 4.0 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"T Series Sedan",
+			"ComponentName":"T Series 5.0 L Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brighton",
+			"ComponentName":"Brighton Limited",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brighton",
+			"ComponentName":"Brighton Platinum",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cascade",
+			"ComponentName":"Cascade CX",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cascade",
+			"ComponentName":"Cascade RX",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cascade",
+			"ComponentName":"Cascade LX",
+			"Weight":1
+		},
+		{
+			"ParentName":"Bryce",
+			"ComponentName":"Bryce J40",
+			"Weight":1
+		},
+		{
+			"ParentName":"Bryce",
+			"ComponentName":"Bryce J50",
+			"Weight":1
+		},
+		{
+			"ParentName":"Bryce",
+			"ComponentName":"Bryce J60",
+			"Weight":1
+		},
+		{
+			"ParentName":"Bryce",
+			"ComponentName":"u",
+			"Weight":1
+		},
+		{
+			"ParentName":"Bryce",
+			"ComponentName":"b",
+			"Weight":1
+		},
+		{
+			"ParentName":"Bryce",
+			"ComponentName":"BryceJ658",
+			"Weight":1
+		},
+		{
+			"ParentName":"Bryce",
+			"ComponentName":"Bryce Taleo",
+			"Weight":1
+		},
+		{
+			"ParentName":"Bryce",
+			"ComponentName":"Bryce  Z",
+			"Weight":1
+		},
+		{
+			"ParentName":"Royale",
+			"ComponentName":"Royale i10",
+			"Weight":1
+		},
+		{
+			"ParentName":"Royale",
+			"ComponentName":"Royale i50",
+			"Weight":1
+		},
+		{
+			"ParentName":"Royale",
+			"ComponentName":"Royale i60",
+			"Weight":1
+		},
+		{
+			"ParentName":"Spectre",
+			"ComponentName":"Spectre CL",
+			"Weight":1
+		},
+		{
+			"ParentName":"Spectre",
+			"ComponentName":"Spectre PL",
+			"Weight":1
+		},
+		{
+			"ParentName":"Spectre",
+			"ComponentName":"Spectre RL",
+			"Weight":1
+		},
+		{
+			"ParentName":"Skyfall",
+			"ComponentName":"Skyfall London",
+			"Weight":1
+		},
+		{
+			"ParentName":"Skyfall",
+			"ComponentName":"Skfall Cambridge",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series",
+			"ComponentName":"L Series Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series",
+			"ComponentName":"L Series Wagon",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series",
+			"ComponentName":"L Series Convertible",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series",
+			"ComponentName":"S Series Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series",
+			"ComponentName":"S Series Wagon",
+			"Weight":1
+		},
+		{
+			"ParentName":"T Series",
+			"ComponentName":"T Series Sedan",
+			"Weight":1
+		},
+		{
+			"ParentName":"T Series",
+			"ComponentName":"T Series Coupe",
+			"Weight":1
+		},
+		{
+			"ParentName":"SUV",
+			"ComponentName":"Brighton",
+			"Weight":1
+		},
+		{
+			"ParentName":"SUV",
+			"ComponentName":"Cascade",
+			"Weight":1
+		},
+		{
+			"ParentName":"SUV",
+			"ComponentName":"Bryce",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sports",
+			"ComponentName":"Royale",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sports",
+			"ComponentName":"Spectre",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sports",
+			"ComponentName":"Skyfall",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series 2WD",
+			"ComponentName":"L Series",
+			"Weight":1
+		},
+		{
+			"ParentName":"L Series 2WD",
+			"ComponentName":"L Series 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series 2WD",
+			"ComponentName":"S Series",
+			"Weight":1
+		},
+		{
+			"ParentName":"S Series 2WD",
+			"ComponentName":"S Series 4WD",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total",
+			"ComponentName":"S Series",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total",
+			"ComponentName":"L Series",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total",
+			"ComponentName":"T Series",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total",
+			"ComponentName":"SUV",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total",
+			"ComponentName":"Sports",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"model.subsets/18Engine.json",
+		"model.subsets/Bottom 10 Percent Models.json",
+		"model.subsets/DJC.json",
+		"model.subsets/Engine Size 1.6.json",
+		"model.subsets/LSUB.json",
+		"model.subsets/model promo selector.json",
+		"model.subsets/SB high level models.json",
+		"model.subsets/Series.json",
+		"model.subsets/SSeriesSedan.json",
+		"model.subsets/Top 10 Percent Models.json",
+		"model.subsets/Tot.json",
+		"model.subsets/Valid models per region.json",
+		"model.subsets/zeros.json"
+	]
+}

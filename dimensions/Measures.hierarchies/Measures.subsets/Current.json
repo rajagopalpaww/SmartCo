@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Current",
+	"Alias":"RelativePeriod",
+	"Expression":"{FILTER( {TM1SUBSETALL( [Measures] )}, [Measures].[IncludePeriod] = \"X\")}"
+}

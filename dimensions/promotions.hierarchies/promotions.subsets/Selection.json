@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"Selection",
+	"Expression":"{INTERSECT({[promotions].[promotions].[Promo1],[promotions].[promotions].[Promo2],[promotions].[promotions].[Promo3],[promotions].[promotions].[Promo4],[promotions].[promotions].[Promo5]} , {[promotions].[promotions].[Promo3]} , ALL),{[promotions].[promotions].[Promo1],[promotions].[promotions].[Promo1].CHILDREN}}"
+}
