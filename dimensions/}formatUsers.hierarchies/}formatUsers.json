@@ -1,0 +1,16 @@
+{
+	"@type":"Hierarchy",
+	"Name":"}formatUsers",
+	"ElementsSortType":"ByHierarchy",
+	"Elements":
+	[
+		{
+			"Name":"formatMemberCAMID(\"IBM Intranet Login:u:uid=093509649,c=ca,ou=bluepages\")",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"}formatUsers.subsets/All Members.json"
+	]
+}

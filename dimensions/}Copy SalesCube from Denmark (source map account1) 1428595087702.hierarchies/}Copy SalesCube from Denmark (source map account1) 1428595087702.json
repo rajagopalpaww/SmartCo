@@ -1,0 +1,16 @@
+{
+	"@type":"Hierarchy",
+	"Name":"}Copy SalesCube from Denmark (source map account1) 1428595087702",
+	"Elements":
+	[
+		{
+			"Name":"Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Variable Costs",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

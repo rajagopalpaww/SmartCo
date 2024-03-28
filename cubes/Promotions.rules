@@ -1,0 +1,11 @@
+#Region System
+FEEDSTRINGS;
+SKIPCHECK;
+#EndRegion
+
+
+
+FEEDERS;
+
+['Product Group'] => DB('SalesCube', 'Budget', !region, DB('Promotions', !region, !promotions, 'Product Group') , !promotions, 'Year');
+['Product Group'] => DB('PromotionsCalc', !region, !promotions, 'Year', 'Promo days in Period');

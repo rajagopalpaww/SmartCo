@@ -1,0 +1,16 @@
+{
+	"@type":"Hierarchy",
+	"Name":"}Copy PriceData from Denmark (source map actvsbud) 1428594980576",
+	"Elements":
+	[
+		{
+			"Name":"Actual",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

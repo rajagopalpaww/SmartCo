@@ -1,0 +1,60 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+AttrPutS('','Measures','P1Amt','RelativePeriod');
+AttrPutS('','Measures','P2Amt','RelativePeriod');
+AttrPutS('','Measures','P3Amt','RelativePeriod');
+AttrPutS('','Measures','P4Amt','RelativePeriod');
+AttrPutS('','Measures','P5Amt','RelativePeriod');
+AttrPutS('','Measures','P6Amt','RelativePeriod');
+
+If (CurrentPeriod@='P3 Amt');
+
+AttrPutS('CP-02','Measures','P1Amt','RelativePeriod');
+AttrPutS('CP-01','Measures','P2Amt','RelativePeriod');
+AttrPutS('CP','Measures','P3Amt','RelativePeriod');
+AttrPutS('CP+01','Measures','P4Amt','RelativePeriod');
+AttrPutS('CP+02','Measures','P5Amt','RelativePeriod');
+AttrPutS('CP+03','Measures','P6Amt','RelativePeriod');
+AttrPutS('','Measures','P1Amt','IncludePeriod');
+AttrPutS('X','Measures','P2Amt','IncludePeriod');
+AttrPutS('X','Measures','P3Amt','IncludePeriod');
+AttrPutS('X','Measures','P4Amt','IncludePeriod');
+AttrPutS('','Measures','P5Amt','IncludePeriod');
+AttrPutS('','Measures','P6Amt','IncludePeriod');
+
+ElseIf (CurrentPeriod@='P4 Amt');
+
+
+AttrPutS('CP-03','Measures','P1Amt','RelativePeriod');
+AttrPutS('CP-02','Measures','P2Amt','RelativePeriod');
+AttrPutS('CP-01','Measures','P3Amt','RelativePeriod');
+AttrPutS('CP','Measures','P4Amt','RelativePeriod');
+AttrPutS('CP+01','Measures','P5Amt','RelativePeriod');
+AttrPutS('CP+02','Measures','P6Amt','RelativePeriod');
+AttrPutS('','Measures','P1Amt','IncludePeriod');
+AttrPutS('','Measures','P2Amt','IncludePeriod');
+AttrPutS('X','Measures','P3Amt','IncludePeriod');
+AttrPutS('X','Measures','P4Amt','IncludePeriod');
+AttrPutS('X','Measures','P5Amt','IncludePeriod');
+AttrPutS('','Measures','P6Amt','IncludePeriod');
+
+Endif;
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion

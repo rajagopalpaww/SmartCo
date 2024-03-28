@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"}Copy SalesCube from Denmark (target selection region) 1428595087593",
+	"Hierarchies@Code.links":
+	[
+		"}Copy SalesCube from Denmark (target selection region) 1428595087593.hierarchies/}Copy SalesCube from Denmark (target selection region) 1428595087593.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('}Copy SalesCube from Denmark (target selection region) 1428595087593')/Hierarchies('}Copy SalesCube from Denmark (target selection region) 1428595087593')"
+	}
+}

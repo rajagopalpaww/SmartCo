@@ -1,0 +1,42 @@
+{
+	"@type":"NativeView",
+	"Name":"MD_SalesCube_metrics}_World Sales",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('}MD_SalesCube_metrics}_World Sales_I')/Hierarchies('}MD_SalesCube_metrics}_World Sales_I')/Subsets('All Members')"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('region')/Hierarchies('region')"
+				},
+				"Expression":"[region].MEMBERS"
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('}MD_SalesCube_metrics}_World Sales_D')/Hierarchies('}MD_SalesCube_metrics}_World Sales_D')/Subsets('All Members')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('}MD_SalesCube_metrics}_World Sales_D')/Hierarchies('}MD_SalesCube_metrics}_World Sales_D')/Elements('Secondary Member')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.00"
+}

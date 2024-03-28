@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"Bottom 10 Percent Models",
+	"Expression":"{ ORDER( {BOTTOMPERCENT( {TM1FILTERBYLEVEL( {TM1SUBSETALL( [model] )}, 0)}, 10.000000, [SalesCube].([actvsbud].[actvsbud].[Budget],[region].[region].[Great Britain],[account1].[account1].[Units],[month].[month].[Year]))}, [SalesCube].([actvsbud].[actvsbud].[Budget],[region].[region].[Great Britain],[account1].[account1].[Units],[month].[month].[Year]), BDESC) }"
+}

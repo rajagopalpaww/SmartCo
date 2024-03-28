@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"xx",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('month')/Hierarchies('month')/Elements('Jan')"
+		},
+		{
+			"@id":"Dimensions('month')/Hierarchies('month')/Elements('Feb')"
+		}
+	]
+}

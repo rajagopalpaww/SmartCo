@@ -1,0 +1,15 @@
+{
+	"@type":"Hierarchy",
+	"Name":"}MH_SalesCube_metrics",
+	"Elements":
+	[
+		{
+			"Name":"Indicator Subset",
+			"Type":"String"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"}MH_SalesCube_metrics.subsets/All Members.json"
+	]
+}

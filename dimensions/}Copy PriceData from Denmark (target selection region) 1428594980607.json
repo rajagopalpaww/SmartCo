@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"}Copy PriceData from Denmark (target selection region) 1428594980607",
+	"Hierarchies@Code.links":
+	[
+		"}Copy PriceData from Denmark (target selection region) 1428594980607.hierarchies/}Copy PriceData from Denmark (target selection region) 1428594980607.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('}Copy PriceData from Denmark (target selection region) 1428594980607')/Hierarchies('}Copy PriceData from Denmark (target selection region) 1428594980607')"
+	}
+}

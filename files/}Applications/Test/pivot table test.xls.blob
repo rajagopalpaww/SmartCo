@@ -1,0 +1,5 @@
+﻿FILE_FORMAT=100
+ENTRYNAME=pivot table test.xls
+ENTRYTYPE=blob
+ENTRYREFERENCE=TM1:///blob/PUBLIC/.\}Externals\pivot table test.xls_20140804153347.xlsx
+REMOVEBLOBONDELETE=Yes

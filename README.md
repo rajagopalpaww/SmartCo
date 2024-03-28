@@ -1,2 +1,0 @@
-# SmartCo
-PAW Demo Model

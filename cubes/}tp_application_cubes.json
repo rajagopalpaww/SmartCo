@@ -1,0 +1,15 @@
+{
+	"@type":"Cube",
+	"Name":"}tp_application_cubes",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('}tp_applications')"
+		},
+		{
+			"@id":"Dimensions('}Cubes')"
+		}
+	],
+	"Rules@Code.link":"}tp_application_cubes.rules",
+	"Views@Code.links":[]
+}

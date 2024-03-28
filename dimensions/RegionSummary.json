@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"RegionSummary",
+	"Hierarchies@Code.links":
+	[
+		"RegionSummary.hierarchies/RegionSummary.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('RegionSummary')/Hierarchies('RegionSummary')"
+	}
+}

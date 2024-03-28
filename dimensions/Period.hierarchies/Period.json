@@ -1,0 +1,32 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Period",
+	"Elements":
+	[
+		{
+			"Name":"P1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"P2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"P3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"P4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"P5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"P6",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

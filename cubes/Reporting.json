@@ -1,0 +1,25 @@
+{
+	"@type":"Cube",
+	"Name":"Reporting",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Color')"
+		},
+		{
+			"@id":"Dimensions('Size')"
+		},
+		{
+			"@id":"Dimensions('Shape')"
+		},
+		{
+			"@id":"Dimensions('Period')"
+		}
+	],
+	"Rules@Code.link":"Reporting.rules",
+	"Views@Code.links":
+	[
+		"Reporting.views/All.json",
+		"Reporting.views/Default.json"
+	]
+}

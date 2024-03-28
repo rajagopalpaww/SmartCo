@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"}formatTestSlots",
+	"Hierarchies@Code.links":
+	[
+		"}formatTestSlots.hierarchies/}formatTestSlots.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('}formatTestSlots')/Hierarchies('}formatTestSlots')"
+	}
+}

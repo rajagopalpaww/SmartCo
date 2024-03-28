@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Outlet",
+	"Hierarchies@Code.links":
+	[
+		"Outlet.hierarchies/Outlet.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Outlet')/Hierarchies('Outlet')"
+	}
+}

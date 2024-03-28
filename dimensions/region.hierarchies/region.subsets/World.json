@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"World",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('region')/Hierarchies('region')/Elements('World')"
+		},
+		{
+			"@id":"Dimensions('region')/Hierarchies('region')/Elements('Europe')"
+		},
+		{
+			"@id":"Dimensions('region')/Hierarchies('region')/Elements('Americas')"
+		}
+	]
+}

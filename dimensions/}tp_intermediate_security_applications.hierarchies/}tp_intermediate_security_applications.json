@@ -1,0 +1,12 @@
+{
+	"@type":"Hierarchy",
+	"Name":"}tp_intermediate_security_applications",
+	"Elements":
+	[
+		{
+			"Name":"all_applications",
+			"Type":"Consolidated"
+		}
+	],
+	"Subsets@Code.links":[]
+}

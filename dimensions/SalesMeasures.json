@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"SalesMeasures",
+	"Hierarchies@Code.links":
+	[
+		"SalesMeasures.hierarchies/SalesMeasures.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('SalesMeasures')/Hierarchies('SalesMeasures')"
+	}
+}

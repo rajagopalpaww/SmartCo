@@ -1,0 +1,33 @@
+{
+	"@type":"Process",
+	"Name":"DJC Test",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"DJC Test.ti",
+	"UIData":"CubeAction=1511\fDataAction=1503\fCubeLogChanges=0\f",
+	"VariablesUIData":
+	[
+		"VarType=32\fColType=825\fVarDimension=Size\fVarDimAction=As Is\fVarElemType=Numeric\fVarDimElemSortType=BYINPUT\fVarDimElemSortSense=ASCENDING\f"
+	],
+	"DataSource":
+	{
+		"Type":"ASCII",
+		"asciiDecimalSeparator":".",
+		"asciiDelimiterType":"FixedWidth",
+		"asciiHeaderRecords":0,
+		"asciiQuoteCharacter":"1",
+		"asciiThousandSeparator":",",
+		"dataSourceNameForClient":"C:\\size.txt",
+		"dataSourceNameForServer":"C:\\size.txt"
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"V1",
+			"Type":"String",
+			"Position":1,
+			"StartByte":1,
+			"EndByte":8
+		}
+	]
+}

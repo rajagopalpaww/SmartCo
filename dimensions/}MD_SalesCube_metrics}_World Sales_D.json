@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"}MD_SalesCube_metrics}_World Sales_D",
+	"Hierarchies@Code.links":
+	[
+		"}MD_SalesCube_metrics}_World Sales_D.hierarchies/}MD_SalesCube_metrics}_World Sales_D.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('}MD_SalesCube_metrics}_World Sales_D')/Hierarchies('}MD_SalesCube_metrics}_World Sales_D')"
+	}
+}

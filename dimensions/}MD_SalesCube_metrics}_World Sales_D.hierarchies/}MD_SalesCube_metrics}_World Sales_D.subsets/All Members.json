@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"All Members",
+	"Expression":"[}MD_SalesCube_metrics}_World Sales_D].MEMBERS"
+}

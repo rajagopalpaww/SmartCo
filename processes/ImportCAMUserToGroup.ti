@@ -1,0 +1,30 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+sClientName = V1;
+sCAMNamespace = 'ibmbluepages';
+sFriendlyName = sCAMNamespace | '/' | V2;
+AssignClientToGroup(sClientName, sGroupName);
+AttrPutS(sFriendlyName, sClientDimName, sClientName, sAttributeName);
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+#endregion

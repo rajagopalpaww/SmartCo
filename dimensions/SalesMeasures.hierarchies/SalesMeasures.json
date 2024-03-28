@@ -1,0 +1,40 @@
+{
+	"@type":"Hierarchy",
+	"Name":"SalesMeasures",
+	"Elements":
+	[
+		{
+			"Name":"Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Price",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Variable Costs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gross margin%",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gross Margin",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Gross Margin",
+			"ComponentName":"Sales",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

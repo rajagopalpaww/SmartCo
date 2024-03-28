@@ -1,0 +1,15 @@
+{
+	"@type":"Hierarchy",
+	"Name":"}MD_SalesCube_metrics}_World Sales_I",
+	"Elements":
+	[
+		{
+			"Name":"1",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"}MD_SalesCube_metrics}_World Sales_I.subsets/All Members.json"
+	]
+}

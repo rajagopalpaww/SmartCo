@@ -1,0 +1,34 @@
+{
+	"@type":"Subset",
+	"Name":"SSeriesSedan",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series Sedan')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 1.8 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 2.0 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 2.5 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 3.0 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 3.4 L Sedan')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 2.5 L Sedan 4WD')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 3.0 L Sedan 4WD')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 3.4 L Sedan 4WD')"
+		}
+	]
+}

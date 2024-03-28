@@ -1,0 +1,15 @@
+{
+	"@type":"Cube",
+	"Name":"}Copy PriceData from Denmark (mapping cube region) 1428594980654",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('}Copy PriceData from Denmark (source map region) 1428594980592')"
+		},
+		{
+			"@id":"Dimensions('}Copy PriceData from Denmark (target selection region) 1428594980607')"
+		}
+	],
+	"Rules@Code.link":"}Copy PriceData from Denmark (mapping cube region) 1428594980654.rules",
+	"Views@Code.links":[]
+}

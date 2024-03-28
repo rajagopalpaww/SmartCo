@@ -1,0 +1,17 @@
+#Region System
+FEEDSTRINGS;
+SKIPCHECK;
+#EndRegion
+#['All Shapes']=c:ConsolidatedMax(1,'',!model,!shape,!size);
+
+['Week1']=n:if(DB('modelcube2',!model,!Shape,'DatePicker') @= 'one',1,0);
+['Week2']=n:if(DB('modelcube2',!model,!Shape,'DatePicker') @= 'two',2,0);
+['Week3']=n:if(DB('modelcube2',!model,!Shape,'DatePicker') @= 'three',3,0);
+
+Feeders;
+#['large']=>if(DB('modelcube2',!model,!Shape,'DatePicker') @= 'one','week1'cont);
+['datepicker']=>DB('modelcube3',!model,!Shape,'Week2');
+
+#['Week1']=>DB('modelcube3',!model,!Shape,'Week1');
+#['Week2']=>DB('modelcube3',!model,!Shape,'Week2');
+#['Week3']=>DB('modelcube3',!model,!Shape,'Week3');

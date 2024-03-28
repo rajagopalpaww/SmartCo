@@ -1,0 +1,12 @@
+{
+	"@type":"Hierarchy",
+	"Name":"}Copy SalesCube from Denmark (source map region) 1428595087577",
+	"Elements":
+	[
+		{
+			"Name":"Denmark",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

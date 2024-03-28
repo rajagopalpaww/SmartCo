@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"}Copy PriceData from Denmark (source map region) 1428594980592",
+	"Hierarchies@Code.links":
+	[
+		"}Copy PriceData from Denmark (source map region) 1428594980592.hierarchies/}Copy PriceData from Denmark (source map region) 1428594980592.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('}Copy PriceData from Denmark (source map region) 1428594980592')/Hierarchies('}Copy PriceData from Denmark (source map region) 1428594980592')"
+	}
+}

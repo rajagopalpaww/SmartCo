@@ -1,0 +1,22 @@
+{
+	"@type":"Cube",
+	"Name":"}MD_SalesCube_metrics}_World Sales",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('region')"
+		},
+		{
+			"@id":"Dimensions('}MD_SalesCube_metrics}_World Sales_I')"
+		},
+		{
+			"@id":"Dimensions('}MD_SalesCube_metrics}_World Sales_D')"
+		}
+	],
+	"Rules@Code.link":"}MD_SalesCube_metrics}_World Sales.rules",
+	"Views@Code.links":
+	[
+		"}MD_SalesCube_metrics}_World Sales.views/All.json",
+		"}MD_SalesCube_metrics}_World Sales.views/MD_SalesCube_metrics}_World Sales.json"
+	]
+}

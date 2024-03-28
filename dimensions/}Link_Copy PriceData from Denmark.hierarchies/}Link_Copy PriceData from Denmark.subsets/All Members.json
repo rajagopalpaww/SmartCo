@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"All Members",
+	"Alias":"Caption",
+	"Expression":"[}Link_Copy PriceData from Denmark].MEMBERS"
+}

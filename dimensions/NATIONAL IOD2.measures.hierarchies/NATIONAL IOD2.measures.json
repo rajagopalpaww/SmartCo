@@ -1,0 +1,95 @@
+{
+	"@type":"Hierarchy",
+	"Name":"NATIONAL IOD2.measures",
+	"Elements":
+	[
+		{
+			"Name":"Revenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cost",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Quantity",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Product Manufacture Date",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Product Time",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Product Sold Date",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Long Time",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Long Date",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Full Date",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Short date",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Short Time",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Medium Time",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Full Time",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Short Date Time",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Medium Date Time",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Long Date Time",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Percentage",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Text",
+			"Type":"String"
+		},
+		{
+			"Name":"PickList",
+			"Type":"String"
+		},
+		{
+			"Name":"Dim PickList",
+			"Type":"String"
+		},
+		{
+			"Name":"Large Dim PickList",
+			"Type":"String"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"NATIONAL IOD2.measures.subsets/All Members.json"
+	]
+}

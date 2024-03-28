@@ -1,0 +1,19 @@
+{
+	"@type":"Cube",
+	"Name":"}formatTester",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('}formatTestSlots')"
+		},
+		{
+			"@id":"Dimensions('}formatUsers')"
+		}
+	],
+	"Rules@Code.link":"}formatTester.rules",
+	"Views@Code.links":
+	[
+		"}formatTester.views/All.json",
+		"}formatTester.views/formatTester.json"
+	]
+}

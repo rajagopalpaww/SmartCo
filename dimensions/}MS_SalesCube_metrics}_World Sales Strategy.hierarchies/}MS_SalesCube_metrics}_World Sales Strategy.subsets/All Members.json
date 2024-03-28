@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"All Members",
+	"Expression":"[}MS_SalesCube_metrics}_World Sales Strategy].MEMBERS"
+}

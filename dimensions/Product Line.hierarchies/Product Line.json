@@ -1,0 +1,45 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Product Line",
+	"Elements":
+	[
+		{
+			"Name":"Dishwashers",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Stoves",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Microwaves",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total of Product Line",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total of Product Line",
+			"ComponentName":"Dishwashers",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total of Product Line",
+			"ComponentName":"Stoves",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total of Product Line",
+			"ComponentName":"Microwaves",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Product Line.subsets/All Members.json"
+	]
+}

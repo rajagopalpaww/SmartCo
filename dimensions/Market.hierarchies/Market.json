@@ -1,0 +1,63 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Market",
+	"Elements":
+	[
+		{
+			"Name":"Builders",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Furniture",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Department",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Rental",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Home",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total of Market",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total of Market",
+			"ComponentName":"Builders",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total of Market",
+			"ComponentName":"Furniture",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total of Market",
+			"ComponentName":"Department",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total of Market",
+			"ComponentName":"Rental",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total of Market",
+			"ComponentName":"Home",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Market.subsets/All Members.json"
+	]
+}

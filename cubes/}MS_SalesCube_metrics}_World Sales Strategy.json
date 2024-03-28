@@ -1,0 +1,28 @@
+{
+	"@type":"Cube",
+	"Name":"}MS_SalesCube_metrics}_World Sales Strategy",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('}MS_SalesCube_metrics}_World Sales Strategy')"
+		},
+		{
+			"@id":"Dimensions('model')"
+		},
+		{
+			"@id":"Dimensions('region')"
+		},
+		{
+			"@id":"Dimensions('month')"
+		},
+		{
+			"@id":"Dimensions('actvsbud_MI')"
+		}
+	],
+	"Rules@Code.link":"}MS_SalesCube_metrics}_World Sales Strategy.rules",
+	"Views@Code.links":
+	[
+		"}MS_SalesCube_metrics}_World Sales Strategy.views/All.json",
+		"}MS_SalesCube_metrics}_World Sales Strategy.views/MS_SalesCube_metrics}_World Sales Strategy.json"
+	]
+}
