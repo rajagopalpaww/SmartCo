@@ -1,0 +1,47 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Measures",
+	"Elements":
+	[
+		{
+			"Name":"Color",
+			"Type":"String"
+		},
+		{
+			"Name":"Size",
+			"Type":"String"
+		},
+		{
+			"Name":"Shape",
+			"Type":"String"
+		},
+		{
+			"Name":"P1 Amt",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"P2 Amt",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"P3 Amt",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"P4 Amt",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"P5 Amt",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"P6 Amt",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Measures.subsets/Current.json"
+	]
+}

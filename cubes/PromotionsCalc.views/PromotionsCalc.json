@@ -1,0 +1,52 @@
+{
+	"@type":"NativeView",
+	"Name":"PromotionsCalc",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('promotions')/Hierarchies('promotions')/Subsets('All Members')"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('region')/Hierarchies('region')"
+				},
+				"Expression":"[region].MEMBERS"
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('month')/Hierarchies('month')/Subsets('All Members')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('month')/Hierarchies('month')/Elements('Year')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('promo_calc')/Hierarchies('promo_calc')/Subsets('All Members')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('promo_calc')/Hierarchies('promo_calc')/Elements('End Gap (Period End - Promo End)')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.00"
+}

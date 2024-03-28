@@ -1,0 +1,181 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+
+
+
+
+
+
+
+
+
+
+DimensionHierarchyCreate('Model','ModelType');
+DimensionHierarchyCreate('Model','CustomerTarget');
+DimensionHierarchyCreate('Model','EngineType');
+
+
+DimensionElementInsert('Model:ModelType','','Convertible','N');
+DimensionElementInsert('Model:ModelType','','Wagon','N');
+DimensionElementInsert('Model:ModelType','','Sedan','N');
+DimensionElementInsert('Model:ModelType','','Coupe','N');
+
+DimensionElementInsert('Model:CustomerTarget','','Family','N');
+DimensionElementInsert('Model:CustomerTarget','','Sport','N');
+DimensionElementInsert('Model:CustomerTarget','','Budget','N');
+DimensionElementInsert('Model:CustomerTarget','','OffRoad','N');
+
+DimensionElementInsert('Model:EngineType','','Economy','N');
+DimensionElementInsert('Model:EngineType','','Performance','N');
+DimensionElementInsert('Model:EngineType','','Hybrid','N');
+
+DimensionElementComponentAddDirect('Model:ModelType','Convertible','L Series 1.6 L Convertible',1);
+DimensionElementComponentAddDirect('Model:ModelType','Convertible','L Series 1.8 L Convertible',1);
+DimensionElementComponentAddDirect('Model:ModelType','Convertible','L Series 2.0 L Convertible',1);
+DimensionElementComponentAddDirect('Model:ModelType','Convertible','L Series 2.5 L Convertible',1);
+
+DimensionElementComponentAddDirect('Model:ModelType','Wagon','L Series 1.8 L Wagon',1);
+DimensionElementComponentAddDirect('Model:ModelType','Wagon','L Series 1.8 L Wagon 4WD',1);
+DimensionElementComponentAddDirect('Model:ModelType','Wagon','L Series 2.0 L Wagon',1);
+DimensionElementComponentAddDirect('Model:ModelType','Wagon','L Series 2.0 L Wagon 4WD',1);
+DimensionElementComponentAddDirect('Model:ModelType','Wagon','S Series 1.8 L Wagon',1);
+DimensionElementComponentAddDirect('Model:ModelType','Wagon','S Series 2.0 L Wagon',1);
+DimensionElementComponentAddDirect('Model:ModelType','Wagon','S Series 2.5 L Wagon',1);
+DimensionElementComponentAddDirect('Model:ModelType','Wagon','S Series 2.5 L Wagon 4WD',1);
+DimensionElementComponentAddDirect('Model:ModelType','Wagon','S Series 3.0 L Wagon',1);
+DimensionElementComponentAddDirect('Model:ModelType','Wagon','S Series 3.0 L Wagon 4WD',1);
+DimensionElementComponentAddDirect('Model:ModelType','Wagon','S Series 3.4 L Wagon',1);
+DimensionElementComponentAddDirect('Model:ModelType','Wagon','S Series 3.4 L Wagon 4WD',1);
+
+DimensionElementComponentAddDirect('Model:ModelType','Sedan','L Series 1.6 L Sedan',1);
+DimensionElementComponentAddDirect('Model:ModelType','Sedan','L Series 1.8 L Sedan',1);
+DimensionElementComponentAddDirect('Model:ModelType','Sedan','L Series 2.0 L Sedan',1);
+DimensionElementComponentAddDirect('Model:ModelType','Sedan','L Series 2.5 L Sedan',1);
+DimensionElementComponentAddDirect('Model:ModelType','Sedan','S Series 2.0 L Sedan',1);
+DimensionElementComponentAddDirect('Model:ModelType','Sedan','S Series 2.5 L Sedan',1);
+DimensionElementComponentAddDirect('Model:ModelType','Sedan','S Series 2.5 L Sedan 4WD',1);
+DimensionElementComponentAddDirect('Model:ModelType','Sedan','S Series 3.0 L Sedan',1);
+DimensionElementComponentAddDirect('Model:ModelType','Sedan','S Series 3.0 L Sedan 4WD',1);
+DimensionElementComponentAddDirect('Model:ModelType','Sedan','S Series 3.4 L Sedan',1);
+DimensionElementComponentAddDirect('Model:ModelType','Sedan','S Series 3.4 L Sedan 4WD',1);
+DimensionElementComponentAddDirect('Model:ModelType','Sedan','T Series 2.8 L Sedan',1);
+DimensionElementComponentAddDirect('Model:ModelType','Sedan','T Series 3.2 L Sedan',1);
+DimensionElementComponentAddDirect('Model:ModelType','Sedan','T Series 4.0 L Sedan',1);
+DimensionElementComponentAddDirect('Model:ModelType','Sedan','T Series 5.0 L Sedan',1);
+DimensionElementComponentAddDirect('Model:ModelType','Coupe','T Series 2.8 L Coupe',1);
+DimensionElementComponentAddDirect('Model:ModelType','Coupe','T Series 3.2 L Coupe',1);
+DimensionElementComponentAddDirect('Model:ModelType','Coupe','T Series 4.0 L Coupe',1);
+DimensionElementComponentAddDirect('Model:ModelType','Coupe','T Series 5.0 L Coupe',1);
+
+
+DimensionElementComponentAddDirect('Model:CustomerTarget','Family','S Series 2.5 L Wagon',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Family','S Series 2.5 L Wagon 4WD',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Family','S Series 3.0 L Sedan',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Family','S Series 3.0 L Wagon',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Family','S Series 3.4 L Sedan',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Family','S Series 3.4 L Wagon',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Family','T Series 2.8 L Sedan',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Family','T Series 3.2 L Sedan',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Family','L Series 2.0 L Convertible',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Family','L Series 2.0 L Sedan',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Family','L Series 2.0 L Wagon',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Family','L Series 2.0 L Wagon 4WD',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Family','L Series 2.5 L Convertible',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Family','L Series 2.5 L Sedan',1);
+
+DimensionElementComponentAddDirect('Model:CustomerTarget','Sport','T Series 3.2 L Coupe',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Sport','T Series 4.0 L Coupe',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Sport','T Series 4.0 L Sedan',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Sport','T Series 5.0 L Sedan',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Sport','T Series 5.0 L Coupe',1);
+
+DimensionElementComponentAddDirect('Model:CustomerTarget','Budget','L Series 1.6 L Convertible',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Budget','L Series 1.6 L Sedan',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Budget','L Series 1.8 L Convertible',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Budget','L Series 1.8 L Sedan',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Budget','L Series 1.8 L Wagon',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Budget','L Series 1.8 L Wagon 4WD',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Budget','T Series 2.8 L Coupe',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Budget','S Series 2.0 L Sedan',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Budget','S Series 2.0 L Wagon',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Budget','S Series 2.5 L Sedan',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Budget','S Series 2.5 L Sedan 4WD',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Budget','S Series 1.8 L Sedan',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','Budget','S Series 1.8 L Wagon',1);
+
+
+DimensionElementComponentAddDirect('Model:CustomerTarget','OffRoad','S Series 3.4 L Wagon 4WD',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','OffRoad','S Series 3.4 L Sedan 4WD',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','OffRoad','S Series 3.0 L Wagon 4WD',1);
+DimensionElementComponentAddDirect('Model:CustomerTarget','OffRoad','S Series 3.0 L Sedan 4WD',1);
+
+DimensionElementComponentAddDirect('Model:EngineType','Performance','S Series 3.4 L Sedan',1);
+DimensionElementComponentAddDirect('Model:EngineType','Performance','S Series 3.4 L Sedan 4WD',1);
+DimensionElementComponentAddDirect('Model:EngineType','Performance','S Series 3.4 L Wagon',1);
+DimensionElementComponentAddDirect('Model:EngineType','Performance','S Series 3.4 L Wagon 4WD',1);
+DimensionElementComponentAddDirect('Model:EngineType','Performance','T Series 4.0 L Coupe',1);
+DimensionElementComponentAddDirect('Model:EngineType','Performance','T Series 4.0 L Sedan',1);
+DimensionElementComponentAddDirect('Model:EngineType','Performance','T Series 2.8 L Sedan',1);
+DimensionElementComponentAddDirect('Model:EngineType','Performance','T Series 3.2 L Sedan',1);
+DimensionElementComponentAddDirect('Model:EngineType','Performance','T Series 5.0 L Coupe',1);
+DimensionElementComponentAddDirect('Model:EngineType','Performance','T Series 5.0 L Sedan',1);
+
+DimensionElementComponentAddDirect('Model:EngineType','Hybrid','L Series 2.0 L Wagon 4WD',1);
+DimensionElementComponentAddDirect('Model:EngineType','Hybrid','L Series 2.5 L Convertible',1);
+DimensionElementComponentAddDirect('Model:EngineType','Hybrid','L Series 2.5 L Sedan',1);
+DimensionElementComponentAddDirect('Model:EngineType','Hybrid','S Series 2.5 L Wagon',1);
+DimensionElementComponentAddDirect('Model:EngineType','Hybrid','S Series 2.5 L Wagon 4WD',1);
+DimensionElementComponentAddDirect('Model:EngineType','Hybrid','S Series 3.0 L Sedan',1);
+DimensionElementComponentAddDirect('Model:EngineType','Hybrid','S Series 3.0 L Sedan 4WD',1);
+DimensionElementComponentAddDirect('Model:EngineType','Hybrid','S Series 3.0 L Wagon',1);
+DimensionElementComponentAddDirect('Model:EngineType','Hybrid','S Series 3.0 L Wagon 4WD',1);
+
+DimensionElementComponentAddDirect('Model:EngineType','Economy','L Series 1.6 L Convertible',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','L Series 1.6 L Sedan',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','L Series 1.8 L Convertible',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','L Series 1.8 L Sedan',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','L Series 1.8 L Wagon',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','L Series 1.8 L Wagon 4WD',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','T Series 2.8 L Coupe',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','S Series 2.0 L Sedan',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','S Series 2.0 L Wagon',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','S Series 2.5 L Sedan',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','S Series 2.5 L Sedan 4WD',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','S Series 1.8 L Sedan',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','S Series 1.8 L Wagon',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','L Series 1.8 L Wagon 4WD',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','L Series 2.0 L Convertible',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','L Series 2.0 L Sedan',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','L Series 2.0 L Wagon',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','T Series 2.8 L Coupe',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','T Series 2.8 L Sedan',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','T Series 3.2 L Coupe',1);
+DimensionElementComponentAddDirect('Model:EngineType','Economy','T Series 3.2 L Sedan',1);
+
+
+
+
+
+
+
+
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion

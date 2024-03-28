@@ -1,0 +1,99 @@
+{
+	"@type":"NativeView",
+	"Name":"DJC",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Size')/Hierarchies('Size')"
+				},
+				"Elements":[]
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('model')/Hierarchies('model')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series 2WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series 4WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series Wagon')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series Convertible')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 2WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 4WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('Total')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('T Series')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Shape')/Hierarchies('Shape')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Shape')/Hierarchies('Shape')/Elements('All Shapes')"
+					},
+					{
+						"@id":"Dimensions('Shape')/Hierarchies('Shape')/Elements('Triangle')"
+					},
+					{
+						"@id":"Dimensions('Shape')/Hierarchies('Shape')/Elements('Circle')"
+					},
+					{
+						"@id":"Dimensions('Shape')/Hierarchies('Shape')/Elements('Square')"
+					}
+				]
+			}
+		}
+	],
+	"Titles":[],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.#########"
+}

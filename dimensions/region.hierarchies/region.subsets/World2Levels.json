@@ -1,0 +1,40 @@
+{
+	"@type":"Subset",
+	"Name":"World2Levels",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('region')/Hierarchies('region')/Elements('World')"
+		},
+		{
+			"@id":"Dimensions('region')/Hierarchies('region')/Elements('Europe')"
+		},
+		{
+			"@id":"Dimensions('region')/Hierarchies('region')/Elements('Scandinavia')"
+		},
+		{
+			"@id":"Dimensions('region')/Hierarchies('region')/Elements('Benelux')"
+		},
+		{
+			"@id":"Dimensions('region')/Hierarchies('region')/Elements('Islands')"
+		},
+		{
+			"@id":"Dimensions('region')/Hierarchies('region')/Elements('Central Europe')"
+		},
+		{
+			"@id":"Dimensions('region')/Hierarchies('region')/Elements('Iberia')"
+		},
+		{
+			"@id":"Dimensions('region')/Hierarchies('region')/Elements('Southern Europe')"
+		},
+		{
+			"@id":"Dimensions('region')/Hierarchies('region')/Elements('Americas')"
+		},
+		{
+			"@id":"Dimensions('region')/Hierarchies('region')/Elements('North America')"
+		},
+		{
+			"@id":"Dimensions('region')/Hierarchies('region')/Elements('South America')"
+		}
+	]
+}

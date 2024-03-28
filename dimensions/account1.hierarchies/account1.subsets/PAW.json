@@ -1,0 +1,19 @@
+{
+	"@type":"Subset",
+	"Name":"PAW",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('account1')/Hierarchies('account1')/Elements('Sales')"
+		},
+		{
+			"@id":"Dimensions('account1')/Hierarchies('account1')/Elements('Variable Costs')"
+		},
+		{
+			"@id":"Dimensions('account1')/Hierarchies('account1')/Elements('Promotional Sales')"
+		},
+		{
+			"@id":"Dimensions('account1')/Hierarchies('account1')/Elements('Base Costs')"
+		}
+	]
+}

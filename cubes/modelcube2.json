@@ -1,0 +1,24 @@
+{
+	"@type":"Cube",
+	"Name":"modelcube2",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('model')"
+		},
+		{
+			"@id":"Dimensions('Shape')"
+		},
+		{
+			"@id":"Dimensions('Size')"
+		}
+	],
+	"Rules@Code.link":"modelcube2.rules",
+	"Views@Code.links":
+	[
+		"modelcube2.views/All.json",
+		"modelcube2.views/currency.json",
+		"modelcube2.views/DJC.json",
+		"modelcube2.views/DJC1.json"
+	]
+}

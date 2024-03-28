@@ -1,0 +1,107 @@
+{
+	"@type":"NativeView",
+	"Name":"WFlat",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('SalesMeasures')/Hierarchies('SalesMeasures')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('SalesMeasures')/Hierarchies('SalesMeasures')/Elements('Units')"
+					}
+				]
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Version')/Hierarchies('Version')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('Actual')"
+					},
+					{
+						"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('Budget')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('model')/Hierarchies('model')/Subsets('zeros')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Time')/Hierarchies('Time')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2013 - Jan')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2013 - Feb')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2013 - Mar')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2013 - Apr')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2013 - May')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2013 - Jun')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2013 - Jul')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2013 - Aug')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2013 - Sep')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2013 - Oct')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2013 - Nov')"
+					},
+					{
+						"@id":"Dimensions('Time')/Hierarchies('Time')/Elements('2013 - Dec')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('region')/Hierarchies('region')/Subsets('Leaves')"
+			}
+		}
+	],
+	"Titles":[],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.#########"
+}

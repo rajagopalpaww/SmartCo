@@ -1,0 +1,61 @@
+{
+	"@type":"Cube",
+	"Name":"SalesCube",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('actvsbud')"
+		},
+		{
+			"@id":"Dimensions('region')"
+		},
+		{
+			"@id":"Dimensions('model')"
+		},
+		{
+			"@id":"Dimensions('account1')"
+		},
+		{
+			"@id":"Dimensions('month')"
+		}
+	],
+	"Rules@Code.link":"SalesCube.rules",
+	"MeasuresDimension":
+	{
+		"@id":"Dimensions('account1')"
+	},
+	"Views@Code.links":
+	[
+		"SalesCube.views/Actual Profitability.json",
+		"SalesCube.views/All.json",
+		"SalesCube.views/Base and Promo Sales by Month.json",
+		"SalesCube.views/Bottom 10 Percent Models.json",
+		"SalesCube.views/Budget Profitability.json",
+		"SalesCube.views/Budget Units Data Entry.json",
+		"SalesCube.views/Cell Behavior Test.json",
+		"SalesCube.views/Cost Plan.json",
+		"SalesCube.views/Default.json",
+		"SalesCube.views/DJC.json",
+		"SalesCube.views/filter.json",
+		"SalesCube.views/Flat.json",
+		"SalesCube.views/jack.json",
+		"SalesCube.views/Price.json",
+		"SalesCube.views/Promo Sales by Model by Month.json",
+		"SalesCube.views/Promotions by Model.json",
+		"SalesCube.views/Promotion Summary.json",
+		"SalesCube.views/Region.json",
+		"SalesCube.views/Revenue Plan.json",
+		"SalesCube.views/Revenue Plan by Period.json",
+		"SalesCube.views/sales1qtr.json",
+		"SalesCube.views/salesmargin%.json",
+		"SalesCube.views/salesprice.json",
+		"SalesCube.views/Sales Summary.json",
+		"SalesCube.views/Sales View.json",
+		"SalesCube.views/Subset Test View.json",
+		"SalesCube.views/Trace_complex.json",
+		"SalesCube.views/Trace_simple.json",
+		"SalesCube.views/Units by Model plus Total.json",
+		"SalesCube.views/Units by Model Variances.json",
+		"SalesCube.views/World Sales.json"
+	]
+}

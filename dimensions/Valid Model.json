@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Valid Model",
+	"Hierarchies@Code.links":
+	[
+		"Valid Model.hierarchies/Valid Model.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Valid Model')/Hierarchies('Valid Model')"
+	}
+}

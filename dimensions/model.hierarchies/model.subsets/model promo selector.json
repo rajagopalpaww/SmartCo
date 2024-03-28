@@ -1,0 +1,73 @@
+{
+	"@type":"Subset",
+	"Name":"model promo selector",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series 2WD')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series Sedan')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series Wagon')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series Convertible')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series 4WD')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 2WD')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series Sedan')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series Wagon')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 4WD')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('Total')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series Sedan')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series Wagon')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series Sedan')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series Wagon')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series Convertible')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('T Series')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('T Series Sedan')"
+		},
+		{
+			"@id":"Dimensions('model')/Hierarchies('model')/Elements('T Series Coupe')"
+		}
+	]
+}

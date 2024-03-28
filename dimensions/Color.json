@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Color",
+	"Hierarchies@Code.links":
+	[
+		"Color.hierarchies/Color.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Color')/Hierarchies('Color')"
+	}
+}
